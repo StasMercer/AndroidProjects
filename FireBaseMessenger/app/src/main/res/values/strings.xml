@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">MessageHub</string>
+    <string name="loading">Loading</string>
+    <string name="status_code_sent">Code sent</string>
+    <string name="status_verification_failed">Ooops, try again</string>
+    <string name="status_verification_succeeded">Succes</string>
+    <string name="instant_validation">instant validation</string>
+    <string name="status_sign_in_failed">Sign-in failed</string>
+    <string name="signed_in">Signed-in</string>
+    <string name="home">home</string>
+    <string name="open_drawer">open</string>
+    <string name="close_drawer">close</string>
+    <string name="MainMessengerName">MessageHub</string>
+    <string name="profile_photo"></string>
+    <string name="username"></string>
+    <string name="phoneNumber"></string>
+    <string name="chat_id" />
+    <string name="token" />
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="isImage" />
+    <string name="messageImage">image</string>
+    <string name="image" />
+    <string name="right">right</string>
+    <string name="Me">Me</string>
+    <string name="Profile">Profile</string>
+    <string name="Settings">Settings</string>
+    <string name="Logout">Logout</string>
+    <string name="use_the_search_button_for_searching_by_number">Use the search button for searching by number</string>
+
+
+</resources>

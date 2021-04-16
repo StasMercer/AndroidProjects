@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/image_expander_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/chatMainLv"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9"
+            android:divider="#00000000"
+            android:stackFromBottom="true">
+
+        </ListView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="@color/colorPrimary"
+
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/sendImageBtn"
+                android:layout_width="0dp"
+
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+
+                android:adjustViewBounds="true"
+                android:background="#00000000"
+                android:cropToPadding="true"
+                android:padding="15dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_attach_file_36pt_3x"
+                android:tint="@color/colorPrimaryDark" />
+
+            <EditText
+                android:id="@+id/messageValueEt"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:layout_weight="8"
+                android:background="#00000000"
+                android:ems="10"
+                android:hint="Message "
+                android:inputType="text"
+                android:minHeight="55dp"
+                android:paddingLeft="10dp" />
+
+            <ImageButton
+                android:id="@+id/sendMessageBtn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:scaleType="fitCenter"
+                android:padding="15dp"
+                android:background="#00000000"
+                android:tint="@color/colorPrimaryDark"
+                app:srcCompat="@drawable/ic_send_black_48dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

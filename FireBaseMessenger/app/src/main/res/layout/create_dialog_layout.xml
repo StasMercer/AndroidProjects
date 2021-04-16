@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context="com.example.android.firebasemessenger.CreateDialogActivity">
+    <include
+        android:id="@+id/toolbar_dialog"
+        layout="@layout/toolbar_home"/>
+
+
+    <TextView
+        android:id="@+id/text_info_search_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:padding="8dp"
+        android:layout_margin="16dp"
+        android:textSize="16dp"
+        android:background="#2c797878"
+        android:text="@string/use_the_search_button_for_searching_by_number" />
+
+    <ListView
+            android:id="@+id/usersLv"
+            android:padding="8dp"
+            android:dividerHeight="8.0sp"
+            android:divider="@color/transparent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+</LinearLayout>
